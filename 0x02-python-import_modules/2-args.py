@@ -2,7 +2,7 @@
 if __name__ == "__main__":
     import sys
     nargs = len(sys.argv[1:])
-    if  nargs == 0:
+    if nargs == 0:
         print(f"{nargs} arguments.")
     elif nargs == 1:
         print(f"{nargs} argument:")
