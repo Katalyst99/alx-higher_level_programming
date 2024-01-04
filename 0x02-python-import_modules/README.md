@@ -39,3 +39,10 @@ the position of the argument (starting at 1) followed by :, followed by the argu
 Your code should not be executed when imported
 The number of elements of argv can be retrieved by using: len(argv)
 You do not have to fully understand lists yet, but imagine that argv can be used just like a C array: you can use an index to walk through it. There are other ways (which will be preferred for future project tasks), if you know them you can use them.
+
+3. Infinite addition:
+Write a program that prints the result of the addition of all arguments
+
+The output should be the result of the addition of all arguments, followed by a new line
+You can cast arguments into integers by using int() (you can assume that all arguments can be casted into integers)
+Your code should not be executed when imported
