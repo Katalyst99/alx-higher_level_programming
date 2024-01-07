@@ -94,3 +94,17 @@ You can only use no more than 2 print functions with string format
 You can only use one loop in your code
 You are not allowed to import any module
 You are not allowed to use str.upper() and str.isupper()
+
+10. a + b:
+Write a function that adds two integers and returns the result.
+
+Prototype: def add(a, b):
+Returns the value of a + b
+You are not allowed to import any module
+
+11. a ^ b:
+Write a function that computes a to the power of b and return the value.
+
+Prototype: def pow(a, b):
+Returns the value of a ^ b
+You are not allowed to import any module
