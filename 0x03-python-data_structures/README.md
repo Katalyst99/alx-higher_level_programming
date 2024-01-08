@@ -108,3 +108,11 @@ Prototype: def delete_at(my_list=[], idx=0):
 If idx is negative or out of range, nothing change (returns the same list)
 You are not allowed to use pop()
 You are not allowed to import any module
+
+12. Switch:
+
+Complete the source code in order to switch value of a and b
+
+You can find the source code here
+Your code should be inserted where the comment is (line 4)
+Your program should be exactly 5 lines long
