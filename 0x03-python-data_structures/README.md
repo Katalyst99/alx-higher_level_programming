@@ -76,3 +76,10 @@ You are not allowed to import any module
 You can assume that the two tuples will only contain integers
 If a tuple is smaller than 2, use the value 0 for each missing integer
 If a tuple is bigger than 2, use only the first 2 integers
+
+8. More returns!:
+Write a function that returns a tuple with the length of a string and its first character.
+
+Prototype: def multiple_returns(sentence):
+If the sentence is empty, the first character should be equal to None
+You are not allowed to import any module
