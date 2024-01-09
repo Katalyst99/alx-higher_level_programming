@@ -95,6 +95,14 @@ You can only use one loop in your code
 You are not allowed to import any module
 You are not allowed to use str.upper() and str.isupper()
 
+9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important:
+Write a function that prints the last digit of a number.
+
+Prototype: def print_last_digit(number):
+Returns the value of the last digit
+You are not allowed to import any module
+You don’t need to understand __import__
+
 10. a + b:
 Write a function that adds two integers and returns the result.
 
@@ -108,3 +116,5 @@ Write a function that computes a to the power of b and return the value.
 Prototype: def pow(a, b):
 Returns the value of a ^ b
 You are not allowed to import any module
+
+
