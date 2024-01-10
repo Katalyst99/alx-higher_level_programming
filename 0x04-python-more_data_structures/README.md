@@ -25,3 +25,9 @@ Write a function that adds all unique integers in a list (only once for each int
 
 Prototype: def uniq_add(my_list=[]):
 You are not allowed to import any module
+
+3. Present in both:
+Write a function that returns a set of common elements in two sets.
+
+Prototype: def common_elements(set_1, set_2):
+You are not allowed to import any module
