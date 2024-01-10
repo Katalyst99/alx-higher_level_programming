@@ -10,3 +10,12 @@ Each value should be the square of the value of the input
 Initial matrix should not be modified
 You are not allowed to import any module
 You are allowed to use regular loops, map, etc.
+
+1. Search and replace:
+Write a function that replaces all occurrences of an element by another in a new list.
+
+Prototype: def search_replace(my_list, search, replace):
+my_list is the initial list
+search is the element to replace in the list
+replace is the new element
+You are not allowed to import any module
