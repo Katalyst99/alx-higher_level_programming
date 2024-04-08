@@ -14,32 +14,32 @@ class Rectangle:
         self.width = width
         self.height = height
 
-        @property
-        def width(self):
-            """Gets the width of the rectangle object"""
-            return self.__width
+    @property
+    def height(self):
+        """Gets the height of the rectangle object"""
+        return self.__height
 
-        @width.setter
-        def width(self, value):
-            """ The method to set the width """
-            if type(value) != int:
-                raise TypeError('width must be an integer')
-            elif value < 0:
-                raise ValueError('width must be >= 0')
-            else:
-                self.__width = value
+    @height.setter
+    def height(self, value):
+        """ The method to set the height"""
+        if type(value) != int:
+            raise TypeError('height must be an integer')
+        elif value < 0:
+            raise ValueError('height must be >= 0')
+        else:
+            self.__height = value
 
-        @property
-        def height(self):
-            """Method that retrieves the height"""
-            return self.__height
+    @property
+    def width(self):
+        """Method that retrieves the width"""
+        return self.__width
 
-        @height.setter
-        def height(self, value):
-            """ The method to set the height """
-            if type(value) != int:
-                raise TypeError('height must be an integer')
-            elif value < 0:
-                raise ValueError('height must be >= 0')
-            else:
-                self.__height = value
+    @width.setter
+    def width(self, value):
+        """ The method to set the width"""
+        if type(value) != int:
+            raise TypeError('width must be an integer')
+        elif value < 0:
+            raise ValueError('width must be >= 0')
+        else:
+            self.__width = value
