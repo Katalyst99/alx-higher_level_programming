@@ -21,7 +21,7 @@ class Rectangle:
 
     @height.setter
     def height(self, value):
-        """ The method to set the height"""
+        """The method to set the height"""
         if type(value) != int:
             raise TypeError('height must be an integer')
         elif value < 0:
@@ -36,7 +36,7 @@ class Rectangle:
 
     @width.setter
     def width(self, value):
-        """ The method to set the width"""
+        """The method to set the width"""
         if type(value) != int:
             raise TypeError('width must be an integer')
         elif value < 0:
