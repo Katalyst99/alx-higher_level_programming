@@ -9,7 +9,7 @@ class Rectangle:
 
         Args:
             width (int): The width of a rectangle
-            height (int) : The height of a rectangle
+            height (int): The height of a rectangle
         """
         self.width = width
         self.height = height
@@ -43,4 +43,3 @@ class Rectangle:
             raise ValueError('width must be >= 0')
         else:
             self.__width = value
-
