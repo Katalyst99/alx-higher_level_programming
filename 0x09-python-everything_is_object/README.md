@@ -84,3 +84,57 @@ l1 = [1, 2, 3]
 l2 = l1
 l1.append(4)
 print(l2)
+
+15. List add
+What does this script print?
+
+l1 = [1, 2, 3]
+l2 = l1
+l1 = l1 + [4]
+print(l2)
+
+16. Integer incrementation
+What does this script print?
+
+def increment(n):
+    n += 1
+
+a = 1
+increment(a)
+print(a)
+
+17. List incrementation
+What does this script print?
+
+def increment(n):
+    n.append(4)
+
+l = [1, 2, 3]
+increment(l)
+print(l)
+
+18. List assignation
+What does this script print?
+
+def assign_value(n, v):
+    n = v
+
+l1 = [1, 2, 3]
+l2 = [4, 5, 6]
+assign_value(l1, l2)
+print(l1)
+
+19. Copy a list object
+Write a function def copy_list(l): that returns a copy of a list.
+
+The input list can contain any type of objects
+Your file should be maximum 3-line long (no documentation needed)
+You are not allowed to import any module
+
+20. Tuple or not?
+a = ()
+Is a a tuple? Answer with Yes or No.
+
+21. Tuple or not?
+a = (1, 2)
+Is a a tuple? Answer with Yes or No.
