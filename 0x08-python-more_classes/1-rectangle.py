@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ This is a Rectangle class """
 
+
 class Rectangle:
     """ The class Rectangle defined """
     def __init__(self, width=0, height=0):
