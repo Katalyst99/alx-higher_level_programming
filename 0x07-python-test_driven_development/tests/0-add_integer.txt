@@ -4,11 +4,10 @@ Doctest for a function that adds 2 integers.
 Using add_integer
 -------------------
 
->>> add_integer = __import__('0-add_integer').add_integer
+Importing of the function from the module:
+    >>> add_integer = __import__('0-add_integer').add_integer
 
-Making use it:
-
-    # two integers
+Adding two integers
     >>> add_integer(1, 2)
     3
 
@@ -21,15 +20,14 @@ Making use it:
     >>> add_integer(-2, -2)
     -4
 
-    # single argument(integer and zero)
+Passing a single argument integer and zero
     >>> add_integer(5)
     103
 
     >>> add_integer(0)
     98
 
-
-    # floating-point values and/or with integer values
+Adding floating-point values and/or with integer values
     >>> add_integer(5.5, 6.2)
     11
 
@@ -37,26 +35,29 @@ Making use it:
     13
 
 
-    # No arguments(None)
+Passing None
     >>> add_integer(None)
     Traceback (most recent call last):
+              ...
     TypeError: a must be an integer
 
-    # Arguments with string (a or b)
+Passing Arguments with string (a or b)
     >>> add_integer(7, 'howdy')
     Traceback (most recent call last):
+              ...
     TypeError: b must be an integer
 
-    >>> add_integer('howdy', 98)
+    >>> add_integer("howdy", 98)
     Traceback (most recent call last):
+              ...
     TypeError: a must be an integer
 
-
-    # Large number arguments
+Adding Large number arguments
     >>> add_integer(745686858484, 12455)
     745686870939
 
-    # NaN
-    >>>add_integer(float('NaN'))
+ Passing NaN
+    >>> add_integer(float('NaN'))
     Traceback (most recent call last):
+              ...
     ValueError: cannot convert float NaN to integer
