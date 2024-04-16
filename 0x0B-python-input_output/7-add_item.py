@@ -3,16 +3,16 @@
 and then save them to a file
 """
 
-
 import json
 import sys 
-from os import path
+import os.path
 
-save_to_json_file = __import__('5-save_to_json_file.py').save_to_json_file
-load_from_json_file = __import__('6-load_from_json_file.py').load_from_json_file
 
-filename = 'add_item.json'
+save_to_json_file = __import__('5-save_to_json_file').save_to_json_file
+load_from_json_file = __import__('6-load_from_json_file').load_from_json_file
+
 args = sys.argv[1:]
+filename = "add_item.json"
 
 p_list = []
 
@@ -21,6 +21,6 @@ if not os.path.exists(filename):
 
 p_list = load_from_json_file(filename)
 
-for i in range(1, args):
-    p_list.append(args)
+for i in args:
+    p_list.append(i)
 save_to_json_file(p_list, filename)
