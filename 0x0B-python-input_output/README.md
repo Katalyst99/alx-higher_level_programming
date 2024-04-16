@@ -32,3 +32,32 @@ You don’t need to manage exceptions if the object can’t be serialized.
 
 Prototype: def from_json_string(my_str):
 You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+
+5. Save Object to a file - Write a function that writes an Object to a text file, using a JSON representation:
+
+Prototype: def save_to_json_file(my_obj, filename):
+You must use the with statement
+You don’t need to manage exceptions if the object can’t be serialized.
+You don’t need to manage file permission exceptions.
+
+6. Create object from a JSON file - Write a function that creates an Object from a “JSON file”:
+
+Prototype: def load_from_json_file(filename):
+You must use the with statement
+You don’t need to manage exceptions if the JSON string doesn’t represent an object.
+You don’t need to manage file permissions / exceptions.
+
+7. Load, add, save - Write a script that adds all arguments to a Python list, and then save them to a file:
+
+You must use your function save_to_json_file from 5-save_to_json_file.py
+You must use your function load_from_json_file from 6-load_from_json_file.py
+The list must be saved as a JSON representation in a file named add_item.json
+If the file doesn’t exist, it should be created
+You don’t need to manage file permissions / exceptions.
+
+8. Class to JSON - Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object:
+
+Prototype: def class_to_json(obj):
+obj is an instance of a Class
+All attributes of the obj Class are serializable: list, dictionary, string, integer and boolean
+You are not allowed to import any module
