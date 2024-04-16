@@ -2,7 +2,7 @@
 """Defines the append_file function"""
 
 
-def append_file(filename="", text=""):
+def append_write(filename="", text=""):
     """Returns the number of characters added
 
     Args:
