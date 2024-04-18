@@ -1,0 +1,39 @@
+# 0x0C. Python - Almost a circle
+
+## Table of Contents
+* [Description](#description)
+* [Learning Objectives](#learning-objectives)
+* [Files](#files)
+* [Python Scripts](#python-scripts)
+* [Python Unit Tests](#python-unit-tests)
+* [Authors](#authors)
+
+## Description
+In this project, one implements various aspects of object-oriented programming in Python. The project involves creating a base class called `Base`, along with two other subclasses `Rectangle` and `Square`. These classes represent shapes, methods are implemented to calculate area, display shapes, serialize and deserialize objects, and deal with different features of inheritance. Tests were created as well.
+
+## Learning Objectives
+* Understand the principles of Object-Oriented Programming (OOP) in Python
+* Implement classes and inheritance
+* Utilize private attributes, getter/setter methods, class methods, and static methods
+* Implement unit tests using the `unittest` module
+* Serialize and deserialize objects using JSON
+* Handle *args and **kwargs in functions
+* Write and read JSON files
+
+## Files
+* `tests/`: Folder containing unit tests for the classes.
+
+## Python Scripts
+* All Python scripts are executable.
+* Use `pycodestyle` for code style compliance.
+* Modules, classes, and functions should be documented according to the provided specifications.
+
+## Python Unit Tests
+* All test files are located in the `tests/` folder and start with `test_`.
+* Use the `unittest` module for writing unit tests.
+* Test files and folders organization should match the project structure.
+* Execute all tests using `python3 -m unittest discover tests`.
+
+## Authors
+* Katleho Lekale(https://github.com/Katalyst99) - @katleho_lekale(https://twitter.com/katleho_lekale)
+
