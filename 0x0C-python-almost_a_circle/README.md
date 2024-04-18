@@ -17,7 +17,7 @@ In this project, one implements various aspects of object-oriented programming i
 * Utilize private attributes, getter/setter methods, class methods, and static methods
 * Implement unit tests using the `unittest` module
 * Serialize and deserialize objects using JSON
-* Handle *args and **kwargs in functions
+* Handle and use *args and **kwargs in functions
 * Write and read JSON files
 
 ## Files
@@ -32,7 +32,8 @@ In this project, one implements various aspects of object-oriented programming i
 * All test files are located in the `tests/` folder and start with `test_`.
 * Use the `unittest` module for writing unit tests.
 * Test files and folders organization should match the project structure.
-* Execute all tests using `python3 -m unittest discover tests`.
+* Unit tests must be in: tests/test_models/test_base.py
+* Execute all tests using `python3 -m unittest tests/test_models/test_base.py`.
 
 ## Authors
 * Katleho Lekale(https://github.com/Katalyst99) - @katleho_lekale(https://twitter.com/katleho_lekale)
