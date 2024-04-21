@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-"""Module for Base class"""
+"""Defines the Base class"""
+
+
+
 
 
 class Base:
