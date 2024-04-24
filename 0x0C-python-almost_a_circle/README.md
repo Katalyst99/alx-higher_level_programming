@@ -23,6 +23,7 @@ In this project, one implements various aspects of object-oriented programming i
 ## Files
 * `tests/test_models/`: Folder containing unit tests for the classes.
 * `test_base`: File containing unit tests for `Base` class.
+* `test_rectangle`: File containing unit tests for `Rectangle` class.
 * `Models/`: Folder containing classes for the project.
 * `__init__.py`: With this file, the folder will become a Python package
 * `base.py`: File containing `Base` class and its attributes, The class will the “base” of all other classes in this project.
