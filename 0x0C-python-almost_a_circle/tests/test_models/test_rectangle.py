@@ -110,6 +110,16 @@ class TestRectangle(unittest.TestCase):
             ry = Rectangle(10, 2, 5, -4)
 
 
+    def test_area_rec(self):
+        r1 = Rectangle(3, 2)
+        self.assertEqual(r1.area(), 6)
+
+    def test_area_rec2(self):
+        r2 = Rectangle(8, 7, 0, 0, 12)
+        self.assertEqual(r2.area(), 56)
+
+
+
 if __name__ == "__main__":
     unittest.main()
         
