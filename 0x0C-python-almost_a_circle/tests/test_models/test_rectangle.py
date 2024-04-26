@@ -143,6 +143,14 @@ class TestRectangle(unittest.TestCase):
             self.assertEqual(display, s_input.getvalue())
 
 
+    def test_str(self):
+        r1 = Rectangle(4, 6, 2, 1, 12)
+        display = '[Rectangle] (12) 2/1 - 4/6\n'
+        with io.StringIO() as s_input, redirect_stdout(s_input):
+            r1.display()
+            self.assertEqual(display, s_input.getvalue())
+
+
 
 if __name__ == "__main__":
     unittest.main()
