@@ -5,6 +5,8 @@
 import unittest
 from models.base import Base
 from models.rectangle import Rectangle
+import io
+from contextlib import redirect_stdout
 
 
 class TestRectangle(unittest.TestCase):
@@ -117,6 +119,28 @@ class TestRectangle(unittest.TestCase):
     def test_area_rec2(self):
         r2 = Rectangle(8, 7, 0, 0, 12)
         self.assertEqual(r2.area(), 56)
+
+
+    def test_display_1(self):
+        r = Rectangle(2, 4)
+        display = '##\n##\n##\n##\n'
+        with io.StringIO() as s_input, redirect_stdout(s_input):
+            r.display()
+            self.assertEqual(display, s_input.getvalue())
+
+    def test_display_2(self):
+        r2 = Rectangle(2, 4, 1)
+        display = ' ##\n ##\n ##\n ##\n'
+        with io.StringIO() as s_input, redirect_stdout(s_input):
+            r2.display()
+            self.assertEqual(display, s_input.getvalue())
+
+    def test_display_3(self):
+        r3 = Rectangle(4, 2, 2, 1)
+        display = '\n  ####\n  ####\n'
+        with io.StringIO() as s_input, redirect_stdout(s_input):
+            r3.display()
+            self.assertEqual(display, s_input.getvalue())
 
 
 
